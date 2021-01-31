@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 // create a new route for "/hello-world"
 
 app.listen(process.env.PUBLIC_PORT, () => {
-	console.log(`Server started and listening on port ${process.env.PUBLIC_PORT}`)
+	console.log('Server started')
 })
